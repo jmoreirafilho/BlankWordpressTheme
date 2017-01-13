@@ -1,0 +1,52 @@
+
+ * Theme Name: blank-wordpress-theme
+ * Theme URI: 
+ * Version: 1.0.0
+ * Author: Jose Airton Moreira Filho
+ * Author URI: http://www.guiadoestagiario.com.br
+ * Tags: blank, theme, wordpress, guia, estagiario
+ * Description: Arquivo css de projeto blank.
+ * */
+
+body {
+	background-color:#FFF;
+}
+
+.navigation {
+	z-index:2;
+	position:fixed;
+	width:100%;
+	top:0;
+	background-color:#01579b;
+	height:60px;
+	text-align:right;
+	margin:0;
+	font-family: "Helvetica", sans-serif;
+}
+
+.navigation .icon {
+	font-size:30px;
+	padding-top:15px;
+	text-align: center;
+}
+
+.icon a {
+	text-decoration: none;
+	color:#FFF;
+}
+
+.navigation .menu ul {
+	padding-top: 12px;
+	list-style: none;
+}
+
+.navigation .menu a {
+	color:#FFF;
+	text-decoration:none;
+	font-size:22px;
+}
+
+.menu li {
+	float: right;
+	margin-right: 15px;
+}
