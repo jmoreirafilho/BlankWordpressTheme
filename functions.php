@@ -21,23 +21,6 @@ function blank_scripts () {
 
 add_action('wp_enqueue_scripts', 'blank_scripts');
 
-/* Add none positioning and table class as options for TimyMCE tables plugin  */
-// add_filter('tiny_mce_before_init', 'oi_tinymce');
-// function oi_tinymce($settings) {
-//     $new_styles = array(
-//         array(
-//             'title' => 'None',
-//             'value'    => ''
-//         ),
-//         array(
-//             'title'    => 'Table',
-//             'value'    => 'table',
-//         ),
-//     );
-//     $settings['table_class_list'] = json_encode( $new_styles );
-//     return $settings;
-// }
-
 /* Remove Posts from admin menu */
 function customize_menu () {
     remove_menu_page('edit.php');
