@@ -14,3 +14,4 @@
 	        'items_wrap'      => '<ul class="list-inline">%3$s</ul>',
 	);
 ?>
+<body ng-controller="viewController">
