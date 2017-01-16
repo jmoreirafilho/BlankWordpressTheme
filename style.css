@@ -14,13 +14,13 @@ body {
 
 .navigation {
 	z-index:2;
-	position:fixed;
 	width:100%;
 	top:0;
 	background-color:#01579b;
 	height:60px;
 	text-align:right;
 	margin:0;
+	margin-bottom: 30px;
 	font-family: "Helvetica", sans-serif;
 }
 
